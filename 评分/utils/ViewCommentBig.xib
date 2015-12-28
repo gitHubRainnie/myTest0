@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lantinghei.ttc">
+            <string>FZLTXHK--GBK1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewCommentBig">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="LRd-Nc-iD2">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic_comment.png" id="2Ok-f0-G8N">
+                            <rect key="frame" x="-8" y="-8" width="302" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3oo-bC-r41">
+                            <rect key="frame" x="0.0" y="21" width="294" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="FZLTXHK--GBK1-0" family="Lantinghei SC" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_black_big.png" id="IC4-zc-Kf4">
+                            <rect key="frame" x="8" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="201" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_black_big.png" id="bgb-Mg-Ir5">
+                            <rect key="frame" x="181" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="202" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_black_big.png" id="23u-Pa-qmC">
+                            <rect key="frame" x="139" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="203" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_black_big.png" id="gBU-eM-inY">
+                            <rect key="frame" x="97" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="204" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_black_big.png" id="Xnc-qt-8Sb">
+                            <rect key="frame" x="52" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_white_big.png" id="ApL-Go-sEg" userLabel="Starw1">
+                            <rect key="frame" x="8" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_white_big.png" id="dPQ-W4-7Cq">
+                            <rect key="frame" x="181" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_white_big.png" id="7nS-ea-P0E">
+                            <rect key="frame" x="139" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="303" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_white_big.png" id="yx3-Nm-a1C">
+                            <rect key="frame" x="97" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="304" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_white_big.png" id="bYI-dY-gXN">
+                            <rect key="frame" x="52" y="61" width="44" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imageviewbg" destination="2Ok-f0-G8N" id="cf7-DX-eDv"/>
+                <outlet property="labelscore" destination="3oo-bC-r41" id="1ay-cX-h2P"/>
+                <outlet property="starb1" destination="IC4-zc-Kf4" id="rra-lc-VzG"/>
+                <outlet property="starb2" destination="bgb-Mg-Ir5" id="gax-cX-kGX"/>
+                <outlet property="starb3" destination="23u-Pa-qmC" id="DxC-by-z4D"/>
+                <outlet property="starb4" destination="gBU-eM-inY" id="CMa-Li-7SC"/>
+                <outlet property="starb5" destination="Xnc-qt-8Sb" id="LDw-ZZ-gRX"/>
+                <outlet property="starw1" destination="ApL-Go-sEg" id="4ro-xm-fmi"/>
+                <outlet property="starw2" destination="dPQ-W4-7Cq" id="dPb-Iv-3Ze"/>
+                <outlet property="starw3" destination="7nS-ea-P0E" id="e7q-Lx-NfV"/>
+                <outlet property="starw4" destination="yx3-Nm-a1C" id="Lcc-hx-kDG"/>
+                <outlet property="starw5" destination="bYI-dY-gXN" id="iFW-eY-5ZF"/>
+                <outlet property="viewbg" destination="LRd-Nc-iD2" id="EaQ-dq-oES"/>
+            </connections>
+            <point key="canvasLocation" x="465" y="359"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pic_comment.png" width="319" height="91"/>
+        <image name="star_black_big.png" width="40" height="39"/>
+        <image name="star_white_big.png" width="40" height="39"/>
+    </resources>
+</document>
