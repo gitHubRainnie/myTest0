@@ -50,6 +50,12 @@ enum TAG{
 +(void)showInView:(UIView*)view target:(nullable id)target changed:(nullable SEL)scoreChanged
 {
     if (viewComment == nil) {
+        
+        
+        
+        
+        
+        //ceshi
         view = [AppDelegate getCurrentVC].view;
         NSArray* nib = [[NSBundle mainBundle] loadNibNamed:@"ViewCommentBig" owner:nil options:nil];
         viewComment = (ViewCommentBig*) [nib lastObject];
