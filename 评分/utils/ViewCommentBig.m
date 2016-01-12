@@ -55,7 +55,7 @@ enum TAG{
         
         
         
-        //ceshi发大发大
+        //测试
         view = [AppDelegate getCurrentVC].view;
         NSArray* nib = [[NSBundle mainBundle] loadNibNamed:@"ViewCommentBig" owner:nil options:nil];
         viewComment = (ViewCommentBig*) [nib lastObject];
